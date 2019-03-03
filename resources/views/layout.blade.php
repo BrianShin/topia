@@ -83,12 +83,14 @@
                 <div class="title m-b-md">
                     @yield('content')
                 </div>
-
+                    
                 <div class="links">
                     <a href="/">Home</a>
                     <a href="/writing">writing</a>
                     <a href="/topia">topia</a>
                 </div>
+
+                @yield('body')
             </div>
         </div>
     </body>
