@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/topia', function () {
+    return view('topia');
+});
+
+Route::get('/writing', function () {
+    return view('writing');
+});

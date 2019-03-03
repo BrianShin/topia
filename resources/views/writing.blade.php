@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Home')
+@section('title', 'Writing')
 
 @section('content')
-    Welcome to the site
+    Writing Class
 @endsection
