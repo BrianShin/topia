@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'PagesController@home');
-Route::get('/topia', 'PagesController@topia');
 Route::get('/writing', 'PagesController@writing');
+Route::get('/debate', 'PagesController@debate');
+Route::get('/listening', 'PagesController@listening');

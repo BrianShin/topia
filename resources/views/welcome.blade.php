@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    Welcome to the site
+    Welcome Topia Students
 @endsection
 
 @section('body')

@@ -18,11 +18,15 @@ class PagesController extends Controller
             ]);
     }
 
-    public function topia(){
-        return view('topia');
+    public function listening(){
+        return view('listening');
     }
 
     public function writing(){
         return view('writing');
+    }
+
+    public function debate(){
+        return view('debate');
     }
 }
