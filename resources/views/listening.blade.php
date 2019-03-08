@@ -16,6 +16,19 @@
     2.  Record your voice.<br>
     3.  Submit. <br>
     <!-- https://developers.google.com/web/fundamentals/media/recording-audio/ --> 
+    <input type='text'><br>
+    <input type="file" accept="audio/*" capture id="recorder"><br>
+    <audio id="player" controls></audio>
+    <script>
+        var recorder = document.getElementById('recorder');
+        var player = document.getElementById('player');
+
+        recorder.addEventListener('change', function(e) {
+            var file = e.target.files[0];
+            // Do something with the audio file.
+            player.srcObject = file;
+        });
+    </script>
     
     <div class="links">
         <a target="_blank" href="https://drive.google.com/drive/folders/1FHOVLtJ59ve4Vah4TMw7UfY_a4llrlcQ?usp=sharing">Google Link</a>
