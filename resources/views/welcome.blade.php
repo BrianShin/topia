@@ -7,9 +7,9 @@
 @endsection
 
 @section('body')
-    <ul>
+    {{-- <ul>
         @foreach ($tasks as $x)
             <li>{{$x}}</li>
         @endforeach
-    </ul>
+    </ul> --}}
 @endsection

@@ -14,7 +14,7 @@ class PagesController extends Controller
             ];
         
             return view('welcome', [
-                'tasks' => $tasks
+                //'tasks' => $tasks
             ]);
     }
 
