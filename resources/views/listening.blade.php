@@ -11,7 +11,7 @@
 <br>
     <h3>How to submit your speaking recording:</h3>
 
-    <h5> Online Submit </h5>
+    {{-- <h5> Online Submit </h5>
     1.  Write your Korean name & English name on the form.<br>
     2.  Record your voice.<br>
     3.  Submit. <br>
@@ -28,7 +28,7 @@
             // Do something with the audio file.
             player.srcObject = file;
         });
-    </script>
+    </script> --}}
     
     <div class="links">
         <a target="_blank" href="https://drive.google.com/drive/folders/1FHOVLtJ59ve4Vah4TMw7UfY_a4llrlcQ?usp=sharing">Google Link</a>
